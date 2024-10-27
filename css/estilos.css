@@ -16,7 +16,7 @@
 
 a{
     text-decoration: none;
-    color: blanchedalmond;
+    color: green;
 }
 
 
@@ -37,43 +37,37 @@ nav a{
   color: yellow;
   margin:  0 30px;
   padding: 5px 15px;
+  border-radius: 20px;
 }
 
 nav a:hover{
     background-color: white;
+    color: red;
+}
+
+.encabezado-img{
+    background-image: url("https://img.freepik.com/fotos-premium/fondo-joyeria-disenador-elegante-ai-generativo-sensacion-real_753390-983.jpg");
+     height: 500px;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: white;
+}
+
+.encabezado-img p {
+    font-size: 20px;
+}
+
+.encabezado-img h2{
+    font-size: 50px;
+    padding: 20px;
 }
 
 
 
-nav a:hover {
-    color: purple;
-}
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-.containerpos{
-    background: blue;
-
-}
-
-
-
-
-.item{
-width: 50px;
-height: 50px;
-background: red;
-right: 10px;
-
-}
 
 
 
