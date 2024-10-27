@@ -5,11 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de inicio </title>
 </head>
+<style>
+  .link{
+    background: red;
+  }
+  .secccion1{
+    background: green;
+  }
+  .footer{
+    background: red;
+  }
+  .video{
+    background: orange;
+  }
+
+</style>
 <body>
    <header><h1>Bievenidos a mi pagina </h1>
 
       <nav>
-        <ul >
+        <ul class="link" >
              <li><a href="">Inicio</a></li>
              <li><a href="">Acerca de</a></li>
              <li><a href="">Contactos</a></li>
@@ -17,10 +32,32 @@
       </nav>
 </header>
 
-    <h1>CSS</h1>
 
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sunt neque, labore voluptates accusantium aut dolore quaerat asperiores tenetur fugiat 
-    minima ipsum ullam corporis dolorem. Consequatur ea quod ex similique!</p>
+<main>
+    <section >
+      <div class="secccion1">
+        <h2>Infromacion personal </h2>
+        <p>Contenido de la sección 1.</p>
+    </div>
+    </section>
+
+    <section >
+        <h2>Título de la Sección 2</h2>
+        <p>Contenido de la sección 2.</p>
+    </section>
+     
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/chi1hhYXb8s?si=-FJ8EGx9rFjNxPFS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+     
+</main>
+
+
+<footer class="footer">
+    <p>&copy; 2024 Franklin Correa. Todos los derechos reservados.</p>
+    <p id="contacto">Email: fpipicanocorrea@gmail.com</p>
+</footer>
+
      
 
 
