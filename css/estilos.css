@@ -55,3 +55,28 @@ background: red;
 right: 10px;
 
 }
+
+
+
+/*display */
+
+.display {
+    background: pink;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+#{
+    background: salmon;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+button{
+    background: cyan;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
